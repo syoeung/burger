@@ -1,0 +1,57 @@
+
+<div id="header">
+<img id="burgerLogo" src="assets/img/durrBurger.jpg" alt="burger">
+<h1>Eat Durr Burger, Eat Durr Now!</h1>
+<br>
+</div>
+
+
+<div id="dataDisplay">
+<div id='add'>
+    <h2>Add a Burger: </h2>
+
+    <form class="create-update-form" action="/" method="POST">
+        <div class="form-group">
+            <label for="dab">Burger Name:</label>
+            <input type="text" id="dab" name="burger_name">
+        </div>
+        <button class="btn btn-primary" type="submit">Add Burger</button>
+    </form>
+    <br>
+</div>
+
+<br>
+<div class="row">
+
+<div class="col-6" id='avail'>
+    <h2>Burgers Available to Eat:</h2>
+    <ul>
+        {{#each burgers}} {{#unless this.devoured}}
+        <li>
+            {{this.id}}. {{this.burger_name}}
+
+            <form action="/{{this.id}}?_method=PUT" method="POST">
+                <input type="hidden" name="devoured" value="false">
+                <button class="btn btn-warning" type="submit">Eat Me!</button>
+            </form>
+
+        </li>
+        {{/unless}} {{/each}}
+    </ul>
+</div>
+<div class="col-6" id='devoured'>
+    <h2>Burgers That Have <br>Been Devoured: </h2>
+
+    <ul>
+        {{#each burgers}} {{#if this.devoured}}
+        <li>
+            {{this.id}}. {{this.burger_name}}
+        </li>
+        {{/if}} {{/each}}
+    </ul>
+</div>
+</div>
+</div>
+
+
+

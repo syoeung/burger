@@ -1,0 +1,50 @@
+body {
+    font-family: 'Ultra', serif;
+    width: 100%;
+    background-color: #df3736;
+    color:black;
+    display:block;
+    
+}
+
+h1, #add {
+    display:block;
+    margin:auto;
+    text-align: center;
+}
+
+#burgerLogo {
+    width:400px;
+    display:block;
+    margin:auto;
+}
+
+#columns {
+    display:block;
+    margin:auto;
+    text-align: center;
+}
+
+#dataDisplay {
+    
+    margin:auto;
+}
+ h2 {
+     text-align: center
+ }
+
+
+
+li {
+    font-size: 20px;
+    list-style-type: none;
+}
+ul{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size:18px;
+}
+
