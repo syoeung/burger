@@ -15,6 +15,10 @@ This app uses Handlebars, MySQL, Node, Express, and a homemade ORM to create a b
 2. Select a burger you would like to eat from the "Burgers Available to Eat List" and once selected it will be devoured .
     - Burger will be moved to the "Burgers That Have Been Devoured" section of the page.
 
+## Node.JS instructions
 
+- git clone or down the files from git
+- npm init and install necessary packages
+- type node server.js into console to run on local host
 
 
