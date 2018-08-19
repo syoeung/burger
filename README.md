@@ -4,10 +4,10 @@ This app uses Handlebars, MySQL, Node, Express, and a homemade ORM to create a b
 
 # NPM Needed
  - body-parser
- -mysql
- -method-override
- -express
- -express-handlebars
+ - mysql
+ - method-override
+ - express
+ - express-handlebars
 
 ## Instructions
 1. Type a burger name into form to add burger into database .
