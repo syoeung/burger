@@ -3,11 +3,11 @@
 This app uses Handlebars, MySQL, Node, Express, and a homemade ORM to create a burger logger. I followed the MVC design pattern and Node to Query the route data for the app. Handlebars was used to generate all of my HTML.
 
 # NPM Needed
-1.body-parser
-2.mysql
-3.method-override
-4.express
-5.express-handlebars
+body-parser
+mysql
+method-override
+express
+express-handlebars
 
 ## Instructions
 1. Type a burger name into form to add burger into database .
