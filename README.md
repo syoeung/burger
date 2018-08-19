@@ -21,4 +21,6 @@ This app uses Handlebars, MySQL, Node, Express, and a homemade ORM to create a b
 - npm init and install necessary packages
 - type node server.js into console to run on local host
 
+![durrburgersc](https://user-images.githubusercontent.com/36983507/44304975-47a18b00-a33a-11e8-90a5-de556a3724df.jpg)
+
 
